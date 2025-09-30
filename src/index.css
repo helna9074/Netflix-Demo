@@ -1,0 +1,11 @@
+@import "tailwindcss";
+body{
+    @apply bg-[#111]
+}
+.no-scroll-bar::-webkit-scrollbar{
+   display:none;
+  
+}.small-card{
+    min-height:100px;
+    margin-right:10px;
+}
